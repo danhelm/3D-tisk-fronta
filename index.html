@@ -1,155 +1,27 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Fronta 3D tisku</title>
-
-https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.jsscript>
-
-<style>
-
-body{
-    font-family: Arial, sans-serif;
-    background:#f5f5f5;
-    margin:0;
-    padding:20px;
-}
-
-h1{
-    text-align:center;
-}
-
-#lastUpdate{
-    text-align:center;
-    color:#666;
-}
-
-.card{
-    background:white;
-    padding:15px;
-    margin:10px auto;
-    max-width:900px;
-    border-radius:10px;
-    box-shadow:0 1px 5px rgba(0,0,0,.15);
-}
-
-.card h3{
-    margin-top:0;
-}
-
-.link{
-    word-break:break-all;
-}
-
-</style>
-
-</head>
-
-<body>
-
-<h1>🖨 Fronta 3D tisku</h1>
-
-<p id="lastUpdate">Načítám data...</p>
-
-<div id="queue"></div>
-
 <script>
 
-const excelUrl =
-"https://zsmutenickacz-my.sharepoint.com/:x:/g/personal/danhelm_zsmutenicka_cz/IQABvTy5zcGXQ58S7iuLxd7OAawg5I-KJEhuoLC4raj2Hac?download=1";
-
-async function loadExcel() {
-
-    try {
-
-        const response = await fetch(excelUrl);
-
-        const arrayBuffer = await response.arrayBuffer();
-
-        const workbook = XLSX.read(
-            arrayBuffer,
-            {type:"array"}
-        );
-
-        const sheet =
-            workbook.Sheets[
-                workbook.SheetNames[0]
-            ];
-
-        const rows =
-            XLSX.utils.sheet_to_json(sheet);
-
-        render(rows);
-
-    } catch(error){
-
-        document.getElementById(
-            "queue"
-        ).innerHTML =
-            "<p>Nepodařilo se načíst data.</p>";
-
-        console.error(error);
-    }
-}
-
-function render(rows){
+fetch("data.json")
+.then(r => r.json())
+.then(data => {
 
     let html = "";
 
-    rows.reverse();
+    data.reverse();
 
-    rows.forEach(row => {
+    data.forEach(item => {
 
         html += `
         <div class="card">
-
-            <h3>
-                ${row["Jméno"] || "Neuvedeno"}
-            </h3>
-
-            <p>
-            <b>Barva:</b>
-            ${row["Jakou barvou chceš model vytisknout?"] || "-"}
-            </p>
-
-            <p>
-            <b>Doručení:</b>
-            ${row["komu mám model doručit?"] || "-"}
-            </p>
-
-            <p class="link">
-            <b>Model:</b><br>
-            <a href="${row["Vlož odkaz na model"]}" target="_blank">
-            ${row["Vlož odkaz na model"]}
-            </a>
-            </p>
-
-            <p>
-            <b>Poznámka:</b>
-            ${row["Něco dalšího co bych měl vědět?"] || "-"}
-            </p>
-
+            <h3>${item.name}</h3>
+            <p><b>Barva:</b> ${item.color}</p>
+            <p><a href="${item.model}" target="_blank">Model</a></p>
+            <p>${item.notes}</p>
         </div>
         `;
     });
 
-    document.getElementById("queue")
-        .innerHTML = html;
+    document.getElementById("queue").innerHTML = html;
 
-    document.getElementById("lastUpdate")
-        .textContent =
-        "Aktualizováno: " +
-        new Date().toLocaleString("cs-CZ");
-}
-
-loadExcel();
-
-setInterval(loadExcel, 60000);
+});
 
 </script>
-
-</body>
-</html>
