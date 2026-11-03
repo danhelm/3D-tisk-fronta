@@ -16,18 +16,18 @@ records = []
 
 for _, row in df.iterrows():
 
-    done = row.get("Hotovo", False)
-    
-    records.append({
-        "created": str(row.get("Počáteční čas", "")),
-        "email": str(row.get("E-mail", "")),
-        "name": str(row.get("Jméno", "")),
-        "model": str(row.get("Vlož odkaz na model", "")),
-        "color": str(row.get("Jakou barvou chceš model vytisknout?", "")),
-        "notes": str(row.get("Něco dalšího co bych měl vědět?", "")),
-        "delivery": str(row.get("komu mám model doručit?", ""))
-        "status": "Hotovo" if done else "Čeká"
-    })
+done = bool(row.get("Hotovo", False))
+
+records.append({
+    "created": str(row.get("Počáteční čas", "")),
+    "email": str(row.get("E-mail", "")),
+    "name": str(row.get("Jméno", "")),
+    "model": str(row.get("Vlož odkaz na model", "")),
+    "color": str(row.get("Jakou barvou chceš model vytisknout?", "")),
+    "notes": str(row.get("Něco dalšího co bych měl vědět?", "")),
+    "delivery": str(row.get("komu mám model doručit?", "")),
+    "status": "Hotovo" if done else "Čeká"
+})
 
 with open("data.json", "w", encoding="utf-8") as f:
     json.dump(records, f, ensure_ascii=False, indent=2)
