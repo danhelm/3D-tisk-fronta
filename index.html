@@ -34,7 +34,22 @@ body{
     color:gray;
     font-size:12px;
 }
+.status{
+    display:inline-block;
+    padding:6px 12px;
+    border-radius:20px;
+    color:white;
+    font-weight:bold;
+    margin-bottom:10px;
+}
 
+.waiting{
+    background:#ff9800;
+}
+
+.done{
+    background:#4caf50;
+}
 </style>
 
 </head>
@@ -54,9 +69,17 @@ fetch("data.json")
     let html = "";
 
     data.forEach(item => {
+let statusClass = "waiting";
 
+if(item.status === "Hotovo"){
+    statusClass = "done";
+}
         html += `
-        <div class="card">
+<div class="card">
+
+<div class="status ${statusClass}">
+${item.status}
+</div>
 
             <div class="time">
                 ${item.created}
