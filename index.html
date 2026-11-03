@@ -20,8 +20,26 @@ body{
     grid-template-columns: repeat(2, minmax(100px, 1fr));
     gap: 15px;
 }
+.status{
+    display:inline-block;
+    padding:4px 10px;
+    border-radius:20px;
+    color:white;
+    font-weight:bold;
+}
 
+.waiting{
+    background:#ff9800;
+}
+
+.done{
+    background:#4caf50;
+}
 .card {
+    const statusClass =
+    item.status === "Hotovo"
+    ? "done"
+    : "waiting";
     background: white;
     border-radius: 10px;
     padding: 15px;
@@ -81,7 +99,13 @@ fetch("data.json")
                     otevřít
                 </a>
             </p>
+<p>
 
+<span class="status ${statusClass}">
+${item.status}
+</span>
+
+</p>
             <p>
                 ${item.notes}
             </p>
