@@ -21,7 +21,7 @@ for _, row in df.iterrows():
     records.append({
         "created": str(row.get("Počáteční čas", "")),
         "email": str(row.get("E-mail", "")),
-        "name": str(row.get("Jméno", "")),
+        "name": str(row.get("název modelu (co je to za model)", "")),
         "model": str(row.get("Vlož odkaz na model", "")),
         "color": str(row.get("Jakou barvou chceš model vytisknout?", "")),
         "notes": str(row.get("Něco dalšího co bych měl vědět?", "")),
