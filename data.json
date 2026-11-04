@@ -4,17 +4,77 @@
     "email": "anonymous",
     "name": "Karlštejn",
     "model": "https://www.tinkercad.com/things/18iCyjk24vN-karlstejn-seda/edit?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard",
-    "color": "šedá",
+    "color": "červená",
     "notes": "nan",
     "delivery": "",
     "status": "Čeká"
   },
   {
-    "created": "2026-10-21 16:52:36",
-    "email": "anonymous",
-    "name": "Box",
-    "model": "https://www.tinkercad.com/things/5XFNKeWHoNP-sizzling-habbi-rottis",
-    "color": "je jedno",
+    "created": "2026-11-04 14:54:17",
+    "email": "anonymní",
+    "name": "two_way_screw a nut_1",
+    "model": "https://www.printables.com/model/51932-two-way-screw/files",
+    "color": "jedno",
+    "notes": "nic",
+    "delivery": "",
+    "status": "Čeká"
+  },
+  {
+    "created": "2026-11-04 15:01:50",
+    "email": "anonymní",
+    "name": "Třídička mincí",
+    "model": "https://www.tinkercad.com/things/kmMiBZorU7i-tridicka-minci/edit?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard",
+    "color": "červená",
+    "notes": "nic",
+    "delivery": "",
+    "status": "Čeká"
+  },
+  {
+    "created": "2026-11-04 15:02:22",
+    "email": "anonymní",
+    "name": "pokladnička",
+    "model": "https://www.tinkercad.com/things/4mMXImWz0ru-pokladnicka-ruzova",
+    "color": "růžovou",
+    "notes": "nan",
+    "delivery": "",
+    "status": "Čeká"
+  },
+  {
+    "created": "2026-11-04 15:09:38",
+    "email": "anonymní",
+    "name": "pokladnička",
+    "model": "https://www.tinkercad.com/things/hqA5gvPUIzt-glorious-gaaris",
+    "color": "růžová ",
+    "notes": "nan",
+    "delivery": "",
+    "status": "Hotovo"
+  },
+  {
+    "created": "2026-11-04 15:17:00",
+    "email": "anonymní",
+    "name": "mince ",
+    "model": "https://www.tinkercad.com/things/3JHT2cTaoie-mince/edit?returnTo=%2Fthings%2F3JHT2cTaoie-glorious-gaaris",
+    "color": "modrá",
+    "notes": "nan",
+    "delivery": "",
+    "status": "Hotovo"
+  },
+  {
+    "created": "2026-11-04 15:27:38",
+    "email": "anonymní",
+    "name": " piza ",
+    "model": "https://www.tinkercad.com/things/ibTOpxTdAWV/edit?returnTo=%2Fdashboard",
+    "color": "bílou",
+    "notes": "jo nejde bez podpor do porucuji věž tisknout obraceně ",
+    "delivery": "",
+    "status": "Hotovo"
+  },
+  {
+    "created": "2026-11-04 15:33:32",
+    "email": "anonymní",
+    "name": "mince",
+    "model": "https://www.tinkercad.com/things/bV2vHEMyxux-swanky-robo/edit?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard",
+    "color": "žlutá",
     "notes": "nan",
     "delivery": "",
     "status": "Hotovo"
