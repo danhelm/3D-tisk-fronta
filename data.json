@@ -7,7 +7,7 @@
     "color": "červená",
     "notes": "nan",
     "delivery": "nan",
-    "status": "Čeká"
+    "status": "Hotovo"
   },
   {
     "created": "2026-11-04 14:54:17",
@@ -17,7 +17,7 @@
     "color": "jedno",
     "notes": "nic",
     "delivery": "Kuba 7b",
-    "status": "Čeká"
+    "status": "Hotovo"
   },
   {
     "created": "2026-11-04 15:01:50",
@@ -58,16 +58,6 @@
     "notes": "Chyba nutná oprava sloupků",
     "delivery": "nan",
     "status": "Čeká"
-  },
-  {
-    "created": "2026-11-04 15:27:38",
-    "email": "anonymní",
-    "name": " piza ",
-    "model": "https://www.tinkercad.com/things/ibTOpxTdAWV/edit?returnTo=%2Fdashboard",
-    "color": "bílou",
-    "notes": "no to teda jde",
-    "delivery": "Matiáš Heinz 7B",
-    "status": "Hotovo"
   },
   {
     "created": "2026-11-04 15:33:32",
