@@ -16,7 +16,7 @@ records = []
 
 for _, row in df.iterrows():
 
-    done = bool(row.get("Hotovo", False))
+done = pd.notna(row.get("Hotovo")) and str(row.get("Hotovo")).strip() != ""
 
     records.append({
         "created": str(row.get("Počáteční čas", "")),
