@@ -25,7 +25,7 @@ for _, row in df.iterrows():
         "model": str(row.get("Vlož odkaz na model", "")),
         "color": str(row.get("Jakou barvou chceš model vytisknout?", "")),
         "notes": str(row.get("Něco dalšího co bych měl vědět?", "")),
-        "delivery": str(row.get("komu mám model doručit?", "")),
+        "delivery": str(row.get("komu mám model doručit? (třída, jméno)", "")),
         "status": "Hotovo" if done else "Čeká"
     })
 
