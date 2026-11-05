@@ -25,7 +25,7 @@
     "name": "Třídička mincí",
     "model": "https://www.tinkercad.com/things/kmMiBZorU7i-tridicka-minci/edit?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard",
     "color": "červená",
-    "notes": "nic",
+    "notes": "čísla na rozlišení?",
     "delivery": "Heinz",
     "status": "Čeká"
   },
@@ -35,7 +35,7 @@
     "name": "pokladnička",
     "model": "https://www.tinkercad.com/things/4mMXImWz0ru-pokladnicka-ruzova",
     "color": "růžovou",
-    "notes": "nan",
+    "notes": "Dodělat čísla",
     "delivery": "5.A elena",
     "status": "Čeká"
   },
@@ -45,7 +45,7 @@
     "name": "pokladnička",
     "model": "https://www.tinkercad.com/things/hqA5gvPUIzt-glorious-gaaris",
     "color": "růžová ",
-    "notes": "nan",
+    "notes": "Dodělat čísla",
     "delivery": "5.A Jindra",
     "status": "Čeká"
   },
@@ -55,7 +55,7 @@
     "name": "mince ",
     "model": "https://www.tinkercad.com/things/3JHT2cTaoie-mince/edit?returnTo=%2Fthings%2F3JHT2cTaoie-glorious-gaaris",
     "color": "modrá",
-    "notes": "nan",
+    "notes": "Chyba nutná oprava sloupků",
     "delivery": "nan",
     "status": "Čeká"
   },
@@ -65,7 +65,7 @@
     "name": " piza ",
     "model": "https://www.tinkercad.com/things/ibTOpxTdAWV/edit?returnTo=%2Fdashboard",
     "color": "bílou",
-    "notes": "jo nejde bez podpor do porucuji věž tisknout obraceně ",
+    "notes": "no to teda jde",
     "delivery": "Matiáš Heinz 7B",
     "status": "Hotovo"
   },
