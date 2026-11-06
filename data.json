@@ -78,5 +78,15 @@
     "notes": "asi nic",
     "delivery": "Kuba 7B",
     "status": "Čeká"
+  },
+  {
+    "created": "2026-11-06 11:30:58",
+    "email": "anonymní",
+    "name": "yoda",
+    "model": "https://www.printables.com/model/152913-master-yoda-bust-star-wars/files",
+    "color": "jakoukoli matnou světlou barvou",
+    "notes": "prosím tak aby nebyli vidět vrstvy",
+    "delivery": "Tomík kuba 7b",
+    "status": "Čeká"
   }
 ]
