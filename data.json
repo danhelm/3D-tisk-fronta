@@ -68,5 +68,15 @@
     "notes": "prosím tak aby nebyli vidět vrstvy",
     "delivery": "Tomík kuba 7b",
     "status": "Hotovo"
+  },
+  {
+    "created": "2026-11-13 11:05:14",
+    "email": "anonymní",
+    "name": "krabička",
+    "model": "https://www.tinkercad.com/things/aObljejcXRb-krabicka-bila/edit?returnTo=%2Fdashboard%2Fdesigns%2F3d",
+    "color": "bílá",
+    "notes": "nan",
+    "delivery": "Pustinová 7.B",
+    "status": "Čeká"
   }
 ]
