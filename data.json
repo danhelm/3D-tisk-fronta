@@ -5,7 +5,7 @@
     "name": "Třídička mincí",
     "model": "https://www.tinkercad.com/things/kmMiBZorU7i-tridicka-minci/edit?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard",
     "color": "červená",
-    "notes": "čísla na rozlišení?",
+    "notes": "čísla nechce",
     "delivery": "Heinz",
     "status": "Čeká"
   },
@@ -58,16 +58,6 @@
     "notes": "asi nic",
     "delivery": "Kuba 7B",
     "status": "Čeká"
-  },
-  {
-    "created": "2026-11-06 11:30:58",
-    "email": "anonymní",
-    "name": "yoda",
-    "model": "https://www.printables.com/model/152913-master-yoda-bust-star-wars/files",
-    "color": "jakoukoli matnou světlou barvou",
-    "notes": "prosím tak aby nebyli vidět vrstvy",
-    "delivery": "Tomík kuba 7b",
-    "status": "Hotovo"
   },
   {
     "created": "2026-11-13 11:05:14",
