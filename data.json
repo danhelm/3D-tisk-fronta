@@ -7,7 +7,7 @@
     "color": "červená",
     "notes": "čísla nechce",
     "delivery": "Heinz",
-    "status": "Čeká"
+    "status": "Hotovo"
   },
   {
     "created": "2026-11-04 15:02:22",
@@ -27,7 +27,7 @@
     "color": "růžová ",
     "notes": "Dodělat čísla",
     "delivery": "5.A Jindra",
-    "status": "Čeká"
+    "status": "Hotovo"
   },
   {
     "created": "2026-11-04 15:17:00",
