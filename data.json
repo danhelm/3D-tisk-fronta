@@ -1,45 +1,5 @@
 [
   {
-    "created": "2026-11-04 15:01:50",
-    "email": "anonymní",
-    "name": "Třídička mincí",
-    "model": "https://www.tinkercad.com/things/kmMiBZorU7i-tridicka-minci/edit?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard",
-    "color": "červená",
-    "notes": "čísla nechce",
-    "delivery": "Heinz",
-    "status": "Hotovo"
-  },
-  {
-    "created": "2026-11-04 15:02:22",
-    "email": "anonymní",
-    "name": "pokladnička",
-    "model": "https://www.tinkercad.com/things/4mMXImWz0ru-pokladnicka-ruzova",
-    "color": "růžovou",
-    "notes": "nan",
-    "delivery": "5.A elena",
-    "status": "Hotovo"
-  },
-  {
-    "created": "2026-11-04 15:09:38",
-    "email": "anonymní",
-    "name": "pokladnička",
-    "model": "https://www.tinkercad.com/things/hqA5gvPUIzt-glorious-gaaris",
-    "color": "růžová ",
-    "notes": "Dodělat čísla",
-    "delivery": "5.A Jindra",
-    "status": "Hotovo"
-  },
-  {
-    "created": "2026-11-04 15:17:00",
-    "email": "anonymní",
-    "name": "mince ",
-    "model": "https://www.tinkercad.com/things/3JHT2cTaoie-mince/edit?returnTo=%2Fthings%2F3JHT2cTaoie-glorious-gaaris",
-    "color": "modrá",
-    "notes": "nan",
-    "delivery": "nan",
-    "status": "Hotovo"
-  },
-  {
     "created": "2026-11-04 15:33:32",
     "email": "anonymní",
     "name": "mince",
@@ -55,7 +15,7 @@
     "name": "infinite storage",
     "model": "https://www.tinkercad.com/things/dXBqFJqnkJn-frantic-luulia-leelo/edit?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard",
     "color": "šedou pokud nejde tak černou ",
-    "notes": "asi nic",
+    "notes": "nebude fungovat",
     "delivery": "Kuba 7B",
     "status": "Čeká"
   },
@@ -107,6 +67,46 @@
     "color": "fialová oranžová modrá",
     "notes": "nan",
     "delivery": "páralová 5.A",
+    "status": "Čeká"
+  },
+  {
+    "created": "2026-11-25 14:51:41",
+    "email": "anonymní",
+    "name": "věž",
+    "model": "https://www.tinkercad.com/things/2837Qch0MMp-neat-luulia-amberis/edit",
+    "color": "bílá",
+    "notes": "ne",
+    "delivery": "7.B  david komenda",
+    "status": "Čeká"
+  },
+  {
+    "created": "2026-11-25 14:56:08",
+    "email": "anonymní",
+    "name": "třídička mincí",
+    "model": "https://www.tinkercad.com/things/8ZbkPqGo5K6-fantastic-snaget-jarv/edit?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard",
+    "color": "žlutozelenou",
+    "notes": "nan",
+    "delivery": "6.B Eliška Hubinková",
+    "status": "Čeká"
+  },
+  {
+    "created": "2026-11-25 15:23:25",
+    "email": "anonymní",
+    "name": "třídička miní",
+    "model": "https://www.tinkercad.com/things/2T1cOTEmCD6-fantastic-fyyran/edit?returnTo=%2Fthings%2F2T1cOTEmCD6-fantastic-fyyran",
+    "color": "šedou",
+    "notes": "nan",
+    "delivery": "6.B Gabriela Klosová",
+    "status": "Čeká"
+  },
+  {
+    "created": "2026-11-25 15:27:27",
+    "email": "anonymní",
+    "name": "modrá",
+    "model": "https://www.tinkercad.com/things/bUVKlsNSh4A-seda/edit?returnTo=%2Fdashboard%2Fdesigns%2F3d",
+    "color": "modrá",
+    "notes": "nan",
+    "delivery": "6.B Dan Maleček",
     "status": "Čeká"
   }
 ]
